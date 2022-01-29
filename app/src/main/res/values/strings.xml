@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fun To-Do</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="meme">Meme</string>
+    <string name ="todo">To-Do</string>
+    <string name="meme_fragment_greeting">This is meme Fragment</string>
+    <string name="todo_fragment_greeting">This is TO-DO Fragment</string>
+    <string name="save">save</string>
+    <string name="clear_all">clear ALl</string>
+    <string name="deletebtn">DeleteBtn</string>
+    <string name="next">Next</string>
+    <string name="share">Share</string>
+    <string name="enter_here">To-Do</string>
+    <string name="amount">Last Date</string>
+</resources>
