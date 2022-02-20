@@ -99,11 +99,13 @@ class MemeFragment : Fragment() {
 
     }
 
-    override fun onStop() {
-        VolleySingleton.getInstance((context)).deleteQueue()
-        Glide.get(requireContext()).clearMemory()
-        super.onStop()
-    }
+//    override fun onStop() {
+//        VolleySingleton.getInstance((context)).deleteQueue()
+//        Glide.get(requireContext()).clearMemory()
+//        super.onStop()
+//    }
+
+
 
 
     private fun shareMeme(){

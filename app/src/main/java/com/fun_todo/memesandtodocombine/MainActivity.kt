@@ -3,6 +3,7 @@ package com.fun_todo.memesandtodocombine
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -50,6 +51,12 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
 
+    }
+
+    override fun onDestroy() {
+        Log.d("destroyTag","On Destroy called")
+        this.cacheDir.deleteRecursively()
+        super.onDestroy()
     }
 
 }
