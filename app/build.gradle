@@ -8,7 +8,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.memesandtodocombine"
+        applicationId "com.fun_todo.memesandtodocombine"
         minSdk 21
         targetSdk 31
         versionCode 1

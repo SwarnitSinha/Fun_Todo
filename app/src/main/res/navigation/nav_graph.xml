@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/memeFragment"
-        android:name="com.example.memesandtodocombine.ui.meme.MemeFragment"
+        android:name="com.fun_todo.memesandtodocombine.ui.meme.MemeFragment"
         android:label="Meme Share"
         tools:layout="@layout/fragment_meme" />
 
     <fragment
         android:id="@+id/todoFragment"
-        android:name="com.example.memesandtodocombine.ui.todo.TodoFragment"
+        android:name="com.fun_todo.memesandtodocombine.ui.todo.TodoFragment"
         android:label="To-Do List"
         tools:layout="@layout/fragment_todo"/>
 </navigation>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.memesandtodocombine">
+    package="com.fun_todo.memesandtodocombine">
     <uses-permission android:name="android.permission.INTERNET"/>
 
 
@@ -13,7 +13,7 @@
         android:theme="@style/Theme.MemesAndTodoCombine">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.fun_todo.memesandtodocombine.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
